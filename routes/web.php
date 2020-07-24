@@ -74,3 +74,10 @@ Route::get("/myprofile/{id}/edit", "MyProfileController@edit");
 
 Route::get("/myprofile/{id}", "MyProfileController@show");
 
+Route::get( "/newgallery" , "MyProfileController@gallery" );
+
+Route::get( "/newgallery/ant" , "MyProfileController@ant" );
+
+Route::get( "/newgallery/bird" , "MyProfileController@bird" );
+
+

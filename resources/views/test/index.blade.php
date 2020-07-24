@@ -1,11 +1,11 @@
 <html>
     <body>
         <h1>Phantakan Adam</h1>
-        <a href="gallery/ant">
+        <a href="newgallery/ant">
             <img src= "{{$ant}}"height = "150" >
         </a>
         
-        <a href="gallery/bird">   
+        <a href="newgallery/bird">   
         <img src= "{{$bird}}"height = "150" >
         </a>
 
