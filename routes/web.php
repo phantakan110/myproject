@@ -81,3 +81,20 @@ Route::get( "/newgallery/ant" , "MyProfileController@ant" );
 Route::get( "/newgallery/bird" , "MyProfileController@bird" );
 
 
+Route::get("/staff/create", "StaffController@create");
+
+Route::get("/staff/{id}/edit", "StaffController@edit");
+
+Route::get('/staff', 'StaffController@index');
+
+Route::post('/staff', 'StaffController@store');
+
+Route::get('/staff/{id}', 'StaffController@show');
+
+Route::get('/staff/{id}/edit', 'StaffController@edit');
+
+Route::patch('/staff/{id}', 'StaffController@update');
+
+Route::delete('/staff/{id}', 'StaffController@destroy');
+
+
