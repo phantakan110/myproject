@@ -1,0 +1,18 @@
+{
+    "fields": [
+        {
+            "name": "title",
+            "type": "string"
+        },
+        {
+            "name": "content",
+            "type": "text"
+        },       
+        {
+            "name": "user_id",
+            "type": "integer#unsigned"
+        }
+    ]
+ }
+ 
+ 

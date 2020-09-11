@@ -98,3 +98,9 @@ Route::patch('/staff/{id}', 'StaffController@update');
 Route::delete('/staff/{id}', 'StaffController@destroy');
 
 
+
+Route::resource('post', 'PostController');
+Route::resource('post', 'PostController');
+Route::resource('book', 'BookController');
+Route::resource('book', 'BookController');
+Route::resource('street', 'StreetController');
