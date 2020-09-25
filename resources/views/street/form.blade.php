@@ -1,4 +1,8 @@
-
+<div class="form-group {{ $errors->has('title') ? 'has-error' : ''}}">
+    <label for="title" class="control-label">{{ 'Title' }}</label>
+    <input class="form-control" name="title" type="text" id="title" value="{{ isset($street->title) ? $street->title : ''}}" >
+    {!! $errors->first('title', '<p class="help-block">:message</p>') !!}
+</div>
 <div class="form-group {{ $errors->has('street') ? 'has-error' : ''}}">
     <label for="street" class="control-label">{{ 'Street' }}</label>
     <textarea class="form-control" rows="5" name="street" type="textarea" id="street" >{{ isset($street->street) ? $street->street : ''}}</textarea>
